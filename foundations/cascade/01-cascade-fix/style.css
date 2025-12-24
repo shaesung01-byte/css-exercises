@@ -5,19 +5,20 @@ body {
 .para,
 .small-para {
   color: hsl(0, 0%, 0%);
-  font-weight: 800;
-}
+  font-weight:bolder;
 
-.small-para {
-  font-size: 14px;
-  font-weight: 800;
-}
 
+}
 .para {
-  font-size: 22px;
+  font-size: 32px;
+
+}
+.small-para {
+  font-size: 12px;
+
 }
 
-.confirm {
+.button.confirm {
   background: green;
   color: white;
   font-weight: bold;

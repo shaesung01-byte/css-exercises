@@ -1,1 +1,8 @@
 /* Add CSS Styling */
+#first_button {
+    color: white;
+    background-color: black;
+}
+#second_button {
+    background-color: yellow;
+}
