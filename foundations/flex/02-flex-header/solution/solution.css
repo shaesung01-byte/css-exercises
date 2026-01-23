@@ -1,7 +1,10 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  flex-direction: row;
 }
+
 
 .logo {
   font-size: 48px;
