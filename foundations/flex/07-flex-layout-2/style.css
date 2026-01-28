@@ -4,6 +4,7 @@ body {
   min-height: 100vh;
 }
 
+
 .header {
   height: 72px;
   background: darkmagenta;
@@ -22,8 +23,24 @@ body {
   box-sizing: border-box;
 }
 
+.main-content {
+  display: flex;
+  flex-direction: row;
+}
+
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  flex-wrap: wrap;
+  padding: 48px;
+  width: 300px;
 }
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+
